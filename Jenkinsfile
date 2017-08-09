@@ -1,4 +1,3 @@
-#!groovy
 node {
    echo "${name}"
 }
