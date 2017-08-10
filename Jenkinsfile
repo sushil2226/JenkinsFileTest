@@ -12,6 +12,7 @@ def userInput
       nodeid='${userInput.node}'     
       echo ("projectId: "+userInput['projectId'])  
       echo ("namespace: "+userInput['namespace']) 
+      echo ('${userInput.node}')
       
     }
 
