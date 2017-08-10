@@ -15,7 +15,7 @@ def userInput
       
     }
 
-node () {
+node ('${userInput.node}') {
   stage('Ready to deploy?') {
     
       echo ("projectId: "+userInput['projectId'])  
