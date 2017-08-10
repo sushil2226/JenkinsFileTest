@@ -12,15 +12,15 @@ def userInput
       nodeid='${userInput.node}'     
       echo ("projectId: "+userInput['projectId'])  
       echo ("namespace: "+userInput['namespace']) 
-      echo ('${userInput.node}')
+      echo ("${userInput.node}")
       
     }
 
-node ('${userInput.node}') {
-  stage('Ready to deploy?') {
+#node ('${userInput.node}') {
+#  stage('Ready to deploy?') {
     
-      echo ("projectId: "+userInput['projectId'])  
-      echo ("namespace: "+userInput['namespace']) 
-      echo ("node: "+userInput['node']) 
-    }
- }
+#      echo ("projectId: "+userInput['projectId'])  
+ #     echo ("namespace: "+userInput['namespace']) 
+  #    echo ("node: "+userInput['node']) 
+#    }
+# }
