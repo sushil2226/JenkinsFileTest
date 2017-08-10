@@ -16,11 +16,11 @@ def userInput
       
     }
 
-/* node ('${userInput.node}') {
+ node ("${userInput.node}") {
    stage('Ready to deploy?') {
     
       echo ("projectId: "+userInput['projectId'])  
       echo ("namespace: "+userInput['namespace']) 
       echo ("node: "+userInput['node']) 
     }
- } */
+ } 
